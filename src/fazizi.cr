@@ -1,0 +1,2 @@
+require "./fazizi/*"
+require "kemal"

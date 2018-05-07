@@ -1,0 +1,17 @@
+name: fazizi
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+authors:
+  - Rubi Jihantoro <jihantoro8@gmail.com>
+
+targets:
+  fazizi:
+    main: src/fazizi.cr
+
+crystal: 0.24.2
+
+license: MIT
