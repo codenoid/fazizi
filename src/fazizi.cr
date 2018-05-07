@@ -44,4 +44,6 @@ get "/" do |env|
   end
 end
 
+#Kemal.config.port = 3000
+#Kemal.config.logging = true
 Kemal.run
