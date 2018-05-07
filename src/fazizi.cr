@@ -2,11 +2,14 @@ require "./fazizi/*"
 require "kemal"
 require "yaml"
 
-if !File.exists?("./config.yml")
+config_file = ARGV[0]
+puts "Loading config file from : #{config_file}"
+
+if !File.exists?(config_file)
   raise "Config file not found"
 end
 
-config = File.read("./config.yml")
+config = File.read(config_file)
 config = YAML.parse config
 config = config.as_h
 
