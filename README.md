@@ -1,22 +1,30 @@
 # fazizi
 
-TODO: Write a description here
+Random Sentence generator
 
 ## Installation
 
-TODO: Write installation instructions here
+1. Install Crystal
+2. `git clone https://github.com/codenoid/fazizi.git`
+3. `cd fazizi`
+4. `crystal build src/fazizi.cr`
+4. `./fazizi`
 
 ## Usage
 
-TODO: Write usage instructions here
+`curl http://localhost:3000/`
+
+`curl http://localhost:3000/?category=love`
+
+`curl http://localhost:3000/?lang=id&category=love`
 
 ## Development
 
-TODO: Write development instructions here
+- [ ] 1000 Stars
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/fazizi/fork )
+1. Fork it ( https://github.com/codenoid/fazizi/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -24,4 +32,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Rubi Jihantoro - creator, maintainer
+- [codenoid](https://github.com/codenoid) Rubi Jihantoro - creator, maintainer
