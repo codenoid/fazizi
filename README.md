@@ -7,8 +7,9 @@ Random Sentence generator
 1. [Install Crystal](https://gist.github.com/codenoid/c9c172d6ab99c8de0130d940a3d9fe83)
 2. `git clone https://github.com/codenoid/fazizi.git`
 3. `cd fazizi`
-4. `crystal build src/fazizi.cr`
-4. `./fazizi`
+4. `shards install`
+5. `crystal build src/fazizi.cr`
+6. `./fazizi`
 
 ## Usage
 
